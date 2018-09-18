@@ -1,10 +1,7 @@
 
 *{
 	margin:0;
-	padding:0;
-
-
-	
+	padding:0;	
 }
 
 
@@ -57,18 +54,14 @@ nav {
 
 .title{
 	text-align: left;;
-	padding: 1em;
+	padding: 10px;
 	font-size: 35px;
 	border-style: none none solid none;
 	 font-family: Arial, Helvetica, sans-serif;
-
-
 }
 
 #app{
-	
 	background-color:#fff;
-	
 	width:700px;
 	margin:100px auto;
 	border-radius:6px;
@@ -104,8 +97,7 @@ nav {
 	margin-bottom:15px;
 	border-radius:4px;
 	cursor:pointer;
-	float:left;
-	
+	float:left;	
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -115,7 +107,6 @@ nav {
 	padding: 5px;
 	color: black;
 	font-size: 20px;
-
 }
 
 

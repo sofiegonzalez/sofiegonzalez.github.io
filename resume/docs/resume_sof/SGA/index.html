@@ -7,21 +7,31 @@
 
     <!-- The main CSS file -->
 	<link href="assets/css/style.css" rel="stylesheet" />
+
+	<!-- Custom styles for this template -->
+    <link href="assets/css/sticky-footer.css" rel="stylesheet">
+
+        <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 	
 </head>
 
 <body>
+
 	<div class="title_sga">
-		<p class="title" >SGA</p>
+		<p class="title" >Shelley Godwin Archive Project</p>
 		 <ul id="nav">
-		 
 			<li class="first leaf "> <a href="http://shelleygodwinarchive.org/" title="Home" class="active"> Home
  				</a> 
 			</li>
 			<li class="first leaf "> <a href="http://shelleygodwinarchive.org/about/" title="Home" class="active"> About
  				</a> 
 			</li>
-		
 		</ul>
 	</div>
 
@@ -96,17 +106,17 @@
 	</script>
 
 	<!-- template for the text-->
-	<script id="textElement" type="text/template">
+	<script id="textElement" type="text/template" >
 	     
 	  <ul>
-	    <div id="#texter"> <strong>Text: </strong> <%= text %> </div>
+	    <div id="#texter" > <strong>Text: </strong> <%= text %> </div>
 	    
 	  </ul>
 	  
 	</script>
 
 	<!-- template for the drop down -->
-	<script id="drpElement" type="text/template">
+	<script id="drpElement" type="text/template" >
 	     
 	  <ul>  
 		<option value="mary"><%= author %> </option>
