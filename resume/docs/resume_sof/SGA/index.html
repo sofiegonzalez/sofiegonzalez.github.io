@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+    <meta charset="utf-8" />
+    <title>SGA </title>
+
+    <!-- The main CSS file -->
+	<link href="assets/css/style.css" rel="stylesheet" />
+	
+</head>
+
+<body>
+	<div class="title_sga">
+		<p class="title" >SGA</p>
+		 <ul id="nav">
+		 
+			<li class="first leaf "> <a href="http://shelleygodwinarchive.org/" title="Home" class="active"> Home
+ 				</a> 
+			</li>
+			<li class="first leaf "> <a href="http://shelleygodwinarchive.org/about/" title="Home" class="active"> About
+ 				</a> 
+			</li>
+		
+		</ul>
+	</div>
+
+	<!-- holds checkboxes and text description -->
+	<nav>
+		<!-- container for the check boxes -->
+		<div id="checkBoxes_container">
+			<!-- The check boxes will be inserted here -->
+  		</div>
+
+  		<!-- container for the drop down -->
+  		<div id="drp_container">
+  			<select id="drp">
+
+  			</select>
+	    </div>
+
+  		<!-- container for the text -->
+  		<div id="txt_container" >
+  			<div id="texts">
+
+  			</div>
+	    </div>
+
+	</nav>
+
+	<article>
+
+		<!-- container for the items -->
+		<div class="container" >
+			<div id="items">
+				<!-- The items will be inserted here -->
+
+			</div>
+
+		</div>
+	</article>
+
+	<!-- template for the items -->
+	<script id="mainElement" type="text/template">
+	     
+	  <ul>
+	    <div ><strong>Name: </strong> <a href="<%= link %>"> <%= title %> <a></div>
+	    <div ><strong>Author: </strong><%= author %></div>
+	    <div ><strong> Type: </strong><%= type %></div>
+	  </ul>
+	  
+	</script>
+
+	<!-- template for the check boxes -->
+	<script id="checkElement" type="text/template">
+	     <form id="checkStyle">
+	  		<!-- checkboxes -->
+	        <div >
+	          	<input class="check all" type="radio" name="rad" checked="" value="All" id="All">
+	      		<label for="All">All</label>
+	    	</div>
+
+			<div >
+				<input class="check" type="radio" name="rad" value="Work" id="Work">
+				<label for="Work">Work</label>
+	        </div>
+
+	    	<div>
+	    		
+	     		<input class="check" type="radio" name="rad" value="Manuscript" id="Manuscript">
+	  			<label for="Manuscript">Manuscript</label>
+	    	</div>
+
+	    </form> 
+	  
+	</script>
+
+	<!-- template for the text-->
+	<script id="textElement" type="text/template">
+	     
+	  <ul>
+	    <div id="#texter"> <strong>Text: </strong> <%= text %> </div>
+	    
+	  </ul>
+	  
+	</script>
+
+	<!-- template for the drop down -->
+	<script id="drpElement" type="text/template">
+	     
+	  <ul>  
+		<option value="mary"><%= author %> </option>
+	  </ul>
+	  
+	</script>
+	    
+	<!-- JavaScript Includes -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="assets/js/underscore/underscore.js"></script>
+	<script src="assets/js/backbone/backbone.js"></script> 
+
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
+

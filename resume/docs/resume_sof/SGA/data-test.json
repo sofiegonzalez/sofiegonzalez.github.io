@@ -1,0 +1,18 @@
+[
+  { "title": "Frankenstein", "author": "Mary Shelley", "link": "http://shelleygodwinarchive.org/contents/frankenstein/", "type": "Work", "auth_drp": "Mary"},
+  { "title": "Ode to Heaven", "author": "P. B. Shelley", "link": "http://shelleygodwinarchive.org/contents/ode_to_heaven/", "type": "Work", "auth_drp": "PB"},
+  { "title": "Huntington MS HM 2117", "author": "P. B. Shelley", "link": "http://shelleygodwinarchive.org/contents/hm_2177/", "type": "Manuscript", "auth_drp": "PB"},
+  { "title": "Caleb Williams", "author": "William Godwin", "link": "http://shelleygodwinarchive.org/contents/caleb_williams/", "type": "Work", "auth_drp": "Will"},   
+  { "title": "Hymn to Intellectual Beauty", "author": "P. B. Shelley", "link": "http://shelleygodwinarchive.org/contents/hymn_to_intellectual_beauty/", "type": "Work", "auth_drp": "PB"},
+
+   { "title": "1", "author": "Mary Shelley", "link": "", "type": "Work", "auth_drp": "Mary"},
+  { "title": "2", "author": "P. B. Shelley", "link": "", "type": "Work", "auth_drp": "PB"},
+  { "title": "3", "author": "P. B. Shelley", "link": "", "type": "Manuscript", "auth_drp": "PB"},
+  { "title": "4", "author": "William Godwin", "link": "", "type": "Work", "auth_drp": "Will"},   
+  { "title": "5", "author": "P. B. Shelley", "link": "", "type": "Work", "auth_drp": "PB"},
+   { "title": "6", "author": "Mary Shelley", "link": "", "auth_drp": "Mary"},
+  { "title": "7", "author": "P. B. Shelley", "link": "", "type": "Work", "auth_drp": "PB"},
+  { "title": "8", "author": "P. B. Shelley", "link": "", "type": "Manuscript", "auth_drp": "PB"},
+  { "title": "9", "author": "William Godwin", "link": "", "type": "Work", "auth_drp": "Will"},   
+  { "title": "10", "author": "P. B. Shelley", "link": "", "type": "Work", "auth_drp": "PB"}
+]
