@@ -1,12 +1,31 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .navbar {
-  margin-bottom: 20px;
+	float: left;
 }
 
-.alot {
-	padding: 6em
+.parallax {
+    /* The image used */
+    background-image: url("../landscape.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+	padding: 10px;
+}
+
+.facts {
+	padding-top: 20px;
+	padding-bottom: 5px;
 }

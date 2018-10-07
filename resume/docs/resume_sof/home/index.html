@@ -20,7 +20,6 @@
     <!-- Custom styles for this template -->
     <link href="navbar.css" rel="stylesheet">
 
-
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -33,51 +32,70 @@
   </head>
 
   <body>
-
-    <div class="container">
-
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../home/index.html">Resume</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="../home/index.html">Home</a></li>
-              <li><a href="../about/index.html">About</a></li>
-              <li><a href="../resume/index.html">Resume</a></li>
-              <li><a href="../contact/index.html">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="../SGA/index.html">SGA</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Sofie Gonzalez</h1>
-        <p></p>
+      <div class="parallax">
+      
+        <h1 class="name">Sofie Gonzalez</h1>
+
+        <div class="container">
+      <!-- Static navbar -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+
+              <div id="navbar" class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="../home/index.html">Home</a></li>
+                  <li><a href="../resume/index.html">Resume</a></li>
+                  <li><a href="../contact/index.html">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="../SGA/index.html">SGA</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                  </ul>
+                  </li>
+                </ul>
+              </div><!--/.nav-collapse -->
+          </nav>
+        </div>
+        
+      </div>
+
+  <section class="facts">
+      <div class="container">
+      <div class="col-sm-4" id="txt">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">
+              <h4 class="list-group-item-heading">Quick Facts</h4>
+              <p class="list-group-item-text"></p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Education</h4>
+              <p class="list-group-item-text"><b>University of Maryland</b> - College Park</p>
+              <p class="list-group-item-text"><b>Junior</b></p> 
+              <p class="list-group-item-text"><b>Majors:</b> Computer Science and English Language and Composition</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Languages</h4>
+              <p class="list-group-item-text">C, Java, Ruby, OCamL</p>
+              <p class="list-group-item-text">HTML, CSS, JavaScript</p>
+            </a>
+          </div>
+        </div><!-- /.col-sm-4 -->
+
+        <p class="text">Hello, I am currently a Junior at the University of Maryland, College Park. I am a double major in Computer Science and English Language and Composition. </p>
+
         <p>
           <a class="btn btn-lg btn-primary" href="../resume/index.html" role="button">View resume &raquo;</a>
         </p>
-      </div>
 
     </div> <!-- /container -->
+  </section>
+
+
+
+  <div class="parallax">
+  </div>
 
 
 
