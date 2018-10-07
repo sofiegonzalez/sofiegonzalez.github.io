@@ -1,22 +1,45 @@
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .navbar {
-  margin-bottom: 20px;
+	float: left;
 }
 
-.ok {
-	font-size: 30px;
+.parallax_one {
+    /* The image used */
+    background-image: url("../landscape_three.jpg");
+
+    /* Set a specific height */
+    min-height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.txt {
-	font-size: 25px;
+.parallax_two {
+    /* The image used */
+    background-image: url("../landscape_three.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.para{
+.name {
 	padding: 10px;
 }
 
-
+.facts {
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
