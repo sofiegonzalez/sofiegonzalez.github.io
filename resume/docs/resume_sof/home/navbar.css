@@ -1,45 +1,7 @@
 body {
   padding-bottom: 20px;
-  font-size: 20px;
 }
 
 .navbar {
-	float: left;
-}
-
-.parallax_one {
-    /* The image used */
-    background-image: url("../landscape.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax_two {
-    /* The image used */
-    background-image: url("../landscape_three.jpg");
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.name {
-	padding: 10px;
-}
-
-.facts {
-	padding-top: 20px;
-	padding-bottom: 5px;
+  margin-bottom: 20px;
 }
