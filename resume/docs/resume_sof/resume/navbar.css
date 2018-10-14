@@ -1,24 +1,20 @@
 body {
   padding-bottom: 20px;
-  font-size: 20px;
 }
 
 .navbar {
-	float: left;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
 }
 
-.parallax_one {
-    /* The image used */
-    background-image: url("../landscape_three.jpg");
+.tab {
+	background-color: white;
+}
 
-    /* Set a specific height */
-    min-height: 100px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
+.name {
+	padding: 10px;
 }
 
 .parallax_two {
@@ -35,11 +31,7 @@ body {
     background-size: cover;
 }
 
-.name {
+.text {
+	background-color: white;
 	padding: 10px;
-}
-
-.facts {
-	padding-top: 20px;
-	padding-bottom: 5px;
 }
