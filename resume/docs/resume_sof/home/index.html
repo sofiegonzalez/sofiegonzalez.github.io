@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../log.jpg">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../log.jpg">
 
-    <title>Sofie Gonzalez</title>
+  <title>Sofie Gonzalez</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="navbar.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="navbar.css" rel="stylesheet">
 
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -34,9 +32,10 @@
 
   <body>
 
-  <div class="parallax_two">
+    <!-- home -->
+    <div class="parallax_two navbar-fixed-top" >
 
-    <h1 class="name">Sofie Gonzalez</h1>
+      <h1 class="name">Sofie Gonzalez</h1>
       <!-- Static navbar -->
       <nav class="navbar navbar-default ">
         <div class="container">
@@ -54,8 +53,8 @@
 
             <ul class="nav navbar-nav tab">
               <li class="active"><a href="index.html">About</a></li>
-              <li><a href="../resume/index.html">Resume</a></li>
-              <li><a href="../contact/index.html">Contact</a></li>
+              <li><a href="#res">Resume</a></li>
+              <li><a href="#cont">Contact</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -68,10 +67,12 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+    </div >
 
-    <section class="facts">
-        <div class="container">
-        <div class="col-sm-4" id="txt">
+      
+        <div class="container" style="margin-top:140px; margin-bottom: 10px">
+          <section class="facts">
+          <div class="col-sm-4" id="txt">
             <div class="list-group">
               <a href="#" class="list-group-item active">
                 <h4 class="list-group-item-heading">Quick Facts</h4>
@@ -83,7 +84,7 @@
                 <p class="list-group-item-text"><b>Junior</b></p> 
                 <p class="list-group-item-text"><b>Majors:</b> Computer Science and English Language and Composition</p>
               </a>
-              <a href="#" class="list-group-item">
+              <a href="#" class="list-group-item" >
                 <h4 class="list-group-item-heading">Languages</h4>
                 <p class="list-group-item-text">C, Java, Ruby, OCamL</p>
                 <p class="list-group-item-text">HTML, CSS, JavaScript</p>
@@ -99,24 +100,169 @@
               <a class="btn btn-lg btn-primary" href="../resume/index.html" role="button">View resume &raquo;</a>
             </p> 
           </div>
+          </section>
+        </div> <!-- /container -->
+      
 
-      </div> <!-- /container -->
-    </section>
+    <!-- end home/paralax -->
+
+    <!-- resume -->
+    <div class="container" id="res" >
+      <div class="parallax_four" style="margin-top:155px">
+        <h1 class="name">Resume</h1>
+      </div>
+
+      <h1>
+        <span class="label label-default">Bachelors | May 2020 | University of Maryland - College Park</span>
+      </h1>
+      <h4 class="para">
+        <div>
+          <p> Majors: Computer Science and English Composition and Literature </p>
+        </div>
+      </h4>
+
+      <h2>
+        <span class="label label-primary">Related Coursework </span>
+      </h2>
+      <h4 class="para">
+        <div>
+          <p>Introduction to Computer Programming Via the Web</p>
+          <p>Object Oriented Programming I and II</p>
+          <p>Introduction to Computer Systems</p>
+          <p>Organization of Programming Languages</p>
+          <p>Calculus I, II, III, Discreet Structures, Algorithms</p>
+        </div>
+      </h4>
+
+      <h1>
+        <span class="label label-success">Languages </span>
+      </h1>
+      <h4 class="para">
+        <div>
+          <p> C, Java, R, SQL – Currently in the process of learning Ruby and OCamL</p>
+          <p>Web Design: HTML, CSS, JavaScript, Bootstrap and libraries (Backbone, Underscore)</p>
+          <p>Experience using the Command Line and GitHub. Microsoft Word, Excel, and PowerPoint. Adobe products such as Premiere Pro, Photoshop and Acrobat</p>
+        </div>
+      </h4>
+
+      <h1>
+        <span class="label label-info">Experience</span>
+      </h1>
+      <h4 class="para">
+        <p class="txt">Data Sciene Intern | C2g partners | May 2018 - Current</p>
+        <div class="disc">
+         <p> Worked with a team of data scientists to understand how to create statistical models in R</p>
+         <p> Developed a function in R to generate SQL code in order to parse a statistical model and score the data set on an SQL server</p>
+         <p>Coordinated multiple administrative duties such as setting up interviews for candidates, scheduling meetings for team members as well as organizing a training program “Data All Stars”</p>
+       </div>
+     </h4>
+     <h4 class="para">
+      <p class="txt">Tutor | Coder Kids | Septermber 2018 - Current</p>
+      <div class="disc">
+        <p> Educates kids ages K-12 on specific coding languages (Scratch, Java, HTML, etc.)</p>
+        <p> Works one-on-one to teach harder concepts such as website design and implementatio</p>
+      </div>
+    </h4>
+
+    <h4 class="para">
+      <p class="txt">Website Intern | MITH: Maryland Institute of Technology in the Humanities| december 2018 – may 2018</p>
+      <div class="disc">
+        <p> Used JavaScript, HTML, CSS and Bootstrap to develop a functional interface for the Shelley-Godwin Archive. Operated in a work-like environment to prepare for working on major projects with others in the future </p>
+      </div>
+    </h4>
+
+    <h1>
+      <span class="label label-warning" id="cont">Interests </span>
+    </h1>
+    <h4 class="para">
+      <div>
+        <p> Guitar, have been playing for 7+ years in and outside of high school</p>
+        <p> Rugby, played for 1.5 years in college</p>
+      </div>
+    </h4>
+
+  </div>
+    <!-- end resume -->
+    
+    <!-- contact -->
+    <div class="container" style="margin-bottom:100px">
+      <div class="parallax_three"  style="margin-top:50px">
+        <h1 class="name">Contact</h1>
+      </div>
+
+      <div class="row" style="padding-top: 15px">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Email</h3>
+            </div>
+            <div class="panel-body">
+              <a href="mailto:sofiegonzalez98@gmail.com"> sofie gonzalez </a>
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">GitHub</h3>
+            </div>
+            <div class="panel-body">
+              <img src="../contact/git.svg" class="img" height="20" width="20">
+              <a href="https://github.com/sofiegonzalez">https://github.com/sofiegonzalez</a>
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->
+
+        <div class="col-sm-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Twitter</h3>
+            </div>
+            <div class="panel-body">
+             <img src="../contact/twit.png" class="img" height="20" width="25">
+             <a href="https://twitter.com/sofie_gonzalez">@sofie_gonzalez</a>
+           </div>
+         </div>
+         <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Instagram</h3>
+          </div>
+          <div class="panel-body">
+           <img src="../contact/inst.jpg" class="img" height="20" width="20">
+           <a href="https://www.instagram.com/soa.p_/">@soa.p_</a>
+         </div>
+       </div>
+     </div><!-- /.col-sm-4 -->
+
+     <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">LinkedIn</h3>
+        </div>
+        <div class="panel-body">
+          <img src="../contact/in.png" class="img" height="20" width="20">
+          <a href="https://www.linkedin.com/in/sofia-gonzalez-5a3158130/">https://www.linkedin.com/in/sofia-gonzalez-5a3158130/</a>
+        </div>
+      </div>
+    </div><!-- /.col-sm-4 -->
+  </div>
+
+</div> 
+<!-- end contact -->
 
 
-</div>
+
+
 
 <section>
-  
+
 </section>
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+    </html>
