@@ -41,7 +41,7 @@ body {
 
 .parallax_three {
     /* The image used */
-    background-image: url("../landscape.jpg");
+    background-image: url("../landscape.JPG);
 
     /* Set a specific height */
     min-height: 100px; 
